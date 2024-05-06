@@ -49,7 +49,7 @@ header a:hover {
 }
 
 #banner {
-    background-image:url(midia/banner.jpg);
+    background-image:url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -93,6 +93,7 @@ section p {
     cursor: pointer;
     align-items: center;
     margin-top: 20px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 
 #botao:hover {
@@ -168,6 +169,7 @@ footer a:hover {
 
 #footernav {
     display: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
 }
 
 #footerlist {
@@ -188,6 +190,11 @@ footer a:hover {
 
     #container {
         flex-flow: column nowrap;
+    }
+
+    #banner {
+        background-position: 37%;
+        height: 300px;
     }
 
     #trailer {
