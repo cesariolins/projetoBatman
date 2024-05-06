@@ -3,48 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Batman</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Batman</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="./midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
 </head>
 <body>
     <header>
-        <img src="./midia/logo.png" id="logo">
-        <nav>
-            <ul>
-                <a href="./index.html">
-                    <li>Home</li>
-                </a>
-                <a href="./Contato.html">
-                    <li>Contato</li>
-                </a>
-                <a href="./fotos.html">
-                    <li>Fotos</li>
-                </a>
-                <a href="./comentarios.html">
-                    <li>Comentários</li>
-                </a>
-            </ul>
-        </nav>
+        <img src="./midia/logo.png">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="comentarios.html">Comentários</a></li>
+        </ul>
     </header>
 
-    <div id="banner"></div>
+    <section id="banner">
+        
+    </section>
 
-    <div id="trailer-container">
-        <div class="content">
-            <video controls class="trailer">
-                <source src="./midia/The Batman - Trailer Principal.mp4" type="video/mp4">
-                Seu navegador não possui suporte para vídeos.
-            </video>
+    <section id="container">
+        <div id="trailer">
+            <video src="midia/The Batman - Trailer Principal.mp4" controls id="trailer" width="460" height="276.25"></video>
         </div>
-    </div>
-    <div id="sinopse">
-        <p class="description">
-            Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas
-            mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se
-            estabelece como a personificação da vingança para a população.
-        </p>
-        <button class="button">Comprar ingresso</button>
-    </div>
-
+        <div id="sinopse">
+            <p>Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</p>
+            <input type="submit" value="Comprar ingresso" id="botao">
+        </div>
+    </section>
 </body>
 </html>
+<!-- 
+<iframe width="460" height="276.25" src="https://www.youtube.com/embed/rsQEor4y2hg?si=qiuYDCmbRKp0rio9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
