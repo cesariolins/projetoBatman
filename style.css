@@ -175,3 +175,56 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width:768px){
+
+    header ul {
+        display: none;
+    }
+
+    header img {
+        margin: auto;
+    }
+
+    #container {
+        flex-flow: column nowrap;
+    }
+
+    #trailer {
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 80%;
+        margin: auto;
+    }
+
+    #botao {
+        width: 100%;
+    }
+
+    .cardscontent {
+    grid-template-columns: 1fr;
+
+    }
+
+    footer {
+        flex-flow: column-reverse nowrap;
+        height: auto;
+    }
+
+    #footernav{
+        display: block;
+        margin: 20px;
+    }
+
+    #footerlist li {
+        margin-top: 10px;
+    }
+
+    footer img {
+        margin: 15px 0px;
+    }
+
+    
+}
