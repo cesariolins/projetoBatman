@@ -63,9 +63,6 @@ header a:hover {
     
 }
 
-#trailer {
-}
-
 #sinopse {
     display: flex;
     flex-flow: column nowrap;
@@ -232,6 +229,4 @@ footer a:hover {
     footer img {
         margin: 15px 0px;
     }
-
-    
 }
