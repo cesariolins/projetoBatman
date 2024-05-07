@@ -48,55 +48,6 @@ header a:hover {
     color: rgba(255, 0, 0, 0.877)
 }
 
-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    row-gap: 8em;
-    margin-top: 100px;
-    
-}
-
-.foto {
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .7s;
-}
-
-.foto:hover {
-    transform: scale(2);   
-}
-
-.ft1 {
-    background-image: url("https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg");
-}
-
-.ft2 {
-    background-image: url("https://cinemacao.com/wp-content/uploads/2022/03/batman-2-1130x590.jpg");
-}
-
-.ft3 {
-    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2022/02/the-batman-robert-pattinson.jpeg");
-}
-
-.ft4 {
-    background-image: url("https://bocadoinferno.com.br/wp-content/uploads/2022/06/The-Batman-2022-4.jpg");
-}
-
-.ft5 {
-    background-image: url("https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/675x450/1_26157815-7354644.jpg?20220120100834?20220120100834");
-}
-
-.ft6 {
-    background-image: url("https://ovicio.com.br/wp-content/uploads/2022/10/20221006-ovicio-pinguim-batman.jpg");
-}
 
 footer {
     margin-top: 150px;
@@ -135,17 +86,6 @@ footer a:hover {
 
     header img {
         margin: auto;
-    }
-
-    section {
-        row-gap: 4em;
-        margin-top: 60px;
-        margin-bottom: -100px;
-    }
-
-    .foto {
-        height: 100px;
-        width: 100px;
     }
 
     footer {
