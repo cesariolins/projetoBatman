@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="shortcut icon" href="./midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-    contato
+    <header>
+        <img src="midia/logooo.png">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="comentarios.html">Comentários</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="imglateral"></div>
+        <div id="super">
+            <section id="titulo">
+                <h1>Contate-nos</h1>
+                <p>Como podemos ajudá-lo?</p>
+            </section>
+            <section id="formulario">
+                <form action="contato.html">
+                    <input class="cx" type="text" name="nome" id="inome" placeholder="Nome" required>
+                    <input class="cx" type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome" required> <br>
+                    <input class="cx" type= "email" name="email" id="iemail" placeholder="E-mail" required>
+                    <input class="cx" type="tel" name="fone" id="ifone" placeholder="Tel (xx) xxxxx-xxxx" required> <br>
+                    <textarea class="cx" name="msg" id="imsg" cols="30" rows="10" style="resize: none;" placeholder="Digite sua mensagem" required></textarea>
+                    <input class="bt" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
